@@ -7,6 +7,9 @@ void main()
     scanf("%d",&n);
     if(n<0)
     printf("negative");
+    else if(n=0)
+    printf("0");
     else
-    printf("Postivie");
+    printf("Positive");
+    
 }
